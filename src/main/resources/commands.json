@@ -1,0 +1,105 @@
+{
+  "commands": [
+    {
+      "name": "conversion",
+      "description": "Converts values between binary, hex, octal, and decimal",
+      "options": [
+        {
+          "name": "convert",
+          "description": "Conversion type",
+          "type": 2,
+          "options": [
+            {
+              "name": "binary",
+              "description": "Convert from binary",
+              "type": 1,
+              "options": [
+                {
+                  "name": "binary",
+                  "description": "Binary input",
+                  "type": 3,
+                  "required": true
+                }
+              ]
+            },
+            {
+              "name": "octal",
+              "description": "Convert from octal",
+              "type": 1,
+              "options": [
+                {
+                  "name": "octal",
+                  "description": "Octal input",
+                  "type": 3,
+                  "required": true
+                }
+              ]
+            },
+            {
+              "name": "hex",
+              "description": "Convert from hex",
+              "type": 1,
+              "options": [
+                {
+                  "name": "hex",
+                  "description": "Hex input",
+                  "type": 3,
+                  "required": true
+                }
+              ]
+            },
+            {
+              "name": "decimal",
+              "description": "Convert from decimal",
+              "type": 1,
+              "options": [
+                {
+                  "name": "decimal",
+                  "description": "Decimal input",
+                  "type": 4,
+                  "required": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "altcaps",
+      "type": 3
+    },
+    {
+      "name": "emoji",
+      "description": "Returns the source picture of the selected emoji",
+      "options": [
+        {
+          "name": "emoji",
+          "description": "The selected emoji",
+          "type": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "galactic",
+      "description": "Translates alphabet characters to the Galactic Alphabet",
+      "options": [
+        {
+          "name": "message",
+          "description": "Message to process",
+          "type": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "weedday",
+      "description": "Calculates days relative to 4/20"
+    },
+    {
+      "name": "pfp",
+      "type": 2
+    }
+  ]
+}
